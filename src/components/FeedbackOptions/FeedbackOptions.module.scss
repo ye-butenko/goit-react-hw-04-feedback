@@ -1,0 +1,21 @@
+/* Стилі для списку статистики */
+.statList {
+  list-style: none; /* Видалення маркера списку */
+  padding: 0; /* Внутрішні відступи */
+
+  display: flex;
+  gap: 20px;
+}
+
+/* Стилі для кожного елементу списку статистики */
+.item {
+  display: flex; /* Зробити дочірні елементи блоками */
+  flex-direction: column;
+  align-items: center; /* Вирівнювання по вертикалі */
+}
+
+/* Стилі для мітки і відсотка */
+.label {
+  font-weight: bold; /* Товщина шрифту для мітки */
+  text-transform: capitalize;
+}
